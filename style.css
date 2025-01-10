@@ -1,0 +1,168 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    font-family: Arial,  sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+input [type="text"],input [type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button :hover{
+    background-color: #155db2;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.f-psw, .c-new, .sub-links a{
+    color: #1877f2;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+.f-psw :hover, .c-new :hover, .sub-links a :hover{
+    text-decoration: underline;
+}
+.line{
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+.f-container{
+    margin: 20px 0;
+}
+.f-container img{
+    width: 100px;
+}
+p {
+    font-size: 14px;
+    color: #666;
+}
+.sub-links h3{
+    margin: 0;
+}
+.create-account-btn{
+    background-color: #42b72a;
+}
+.create-account-btn :hover{
+    background-color: #36a420;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #155db2;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.f-psw, .c-new, .sub-links a {
+    color: #1877f2;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.f-psw:hover, .c-new:hover, .sub-links a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.f-container {
+    margin: 20px 0;
+}
+
+.f-container img {
+    width: 100px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+.sub-links h3 {
+    margin: 0;
+}
+
+.create-account-btn {
+    background-color: #42b72a;
+    margin: 20px 0;
+}
+
+.create-account-btn:hover {
+    background-color: #36a420;
+}
